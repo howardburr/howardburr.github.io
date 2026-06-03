@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sketchbooks | Howard Burr</title>
+  <meta name="description" content="Sketchbook drawings and studies by Howard Burr.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Howard Burr</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sculpture.html">Sculpture</a>
+      <a href="drawings.html">Drawings</a>
+      <a href="paintings.html">Paintings</a>
+      <a href="prints.html">Prints</a>
+      <a href="graal-glass.html">Graal Glass</a>
+      <a href="sketchbooks.html">Sketchbooks</a>
+      <a href="selected-subjects.html">Selected Subjects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Sketchbooks</h2>
+
+    <p>
+      Selected sketchbook pages and studies developing ideas for paintings,
+      drawings, prints, and sculptures.
+    </p>
+
+    <section class="gallery-grid" id="artwork-grid">
+      <!-- Sketchbook thumbnails will load here from artwork.json -->
+    </section>
+  </main>
+
+  <script src="js/site.js"></script>
+  <script>
+    loadArtworkByCategory("sketchbooks");
+  </script>
+</body>
+</html>
