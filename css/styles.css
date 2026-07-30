@@ -153,3 +153,34 @@ main {
   color: var(--muted-color);
   font-size: clamp(1rem, 1.8vw, 1.15rem);
 }
+
+.gallery-placeholder {
+  min-height: 12rem;
+  display: grid;
+  place-items: center;
+  padding: clamp(2rem, 6vw, 4rem);
+  border: 1px solid var(--border-color);
+  background: #fafafa;
+  text-align: center;
+}
+
+.gallery-placeholder p {
+  max-width: 34rem;
+  margin: 0;
+  color: var(--muted-color);
+}
+
+.text-page {
+  max-width: 48rem;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+}
+
+.text-page p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.text-link {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
