@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Subject | Howard Burr</title>
+  <meta name="description" content="A selected subject in the work of Howard Burr.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header class="site-header">
+  <a class="site-title" href="index.html" aria-label="Howard Burr home page">Howard Burr</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="sculpture.html">Sculpture</a>
+    <a href="drawings.html">Drawings</a>
+    <a href="paintings.html">Paintings</a>
+    <a href="prints.html">Prints</a>
+    <a href="graal-glass.html">Graal Glass</a>
+    <a href="graal-glass-drawings.html">Graal Glass Drawings</a>
+    <a href="sketchbooks.html">Sketchbooks</a>
+    <a href="selected-subjects.html" aria-current="page">Selected Subjects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="page-heading" id="subject-title">Selected Subject</h1>
+  <p class="page-intro" id="subject-message">
+    A selection of related works will appear here.
+  </p>
+  <p><a href="selected-subjects.html">← Return to Selected Subjects</a></p>
+</main>
+
+<script>
+  const subjects = {
+    "brick-arch-series": {
+      title: "Brick Arch Series",
+      message: "A selection of artworks from the Brick Arch Series will appear here."
+    },
+    "reassembled-timber-series": {
+      title: "Reassembled Timber Series",
+      message: "A selection of artworks from the Reassembled Timber Series will appear here."
+    },
+    "that-change-series": {
+      title: "That Change Series",
+      message: "A selection of artworks from the That Change Series will appear here."
+    },
+    "a-bride-for-becoming": {
+      title: "A Bride for Becoming",
+      message: "A selection of artworks related to A Bride for Becoming will appear here."
+    },
+    "totem-series": {
+      title: "Totem Series",
+      message: "A selection of artworks from the Totem Series will appear here."
+    },
+    "before-i-forget-series": {
+      title: "Before I Forget Series",
+      message: "A selection of artworks from the Before I Forget Series will appear here."
+    },
+    "go-like-that-series": {
+      title: "Go Like That Series",
+      message: "A selection of artworks from the Go Like That Series will appear here."
+    },
+    "every-instant-series": {
+      title: "Every Instant Series",
+      message: "A selection of artworks from the Every Instant Series will appear here."
+    },
+    "remember-include": {
+      title: "Remember Include",
+      message: "A selection of artworks related to Remember Include will appear here."
+    },
+    "snowmen-series": {
+      title: "Snowmen Series",
+      message: "A selection of artworks from the Snowmen Series will appear here."
+    },
+    "through-the-great-bliss-state": {
+      title: "Through the Great Bliss State",
+      message: "A selection of artworks related to Through the Great Bliss State will appear here."
+    },
+    "a-pharaohs-nose": {
+      title: "A Pharaoh's Nose",
+      message: "A selection of artworks related to A Pharaoh's Nose will appear here."
+    },
+    "self-portraits": {
+      title: "Self-Portraits",
+      message: "A selection of self-portraits will appear here."
+    },
+    "figure-in-landscape-series": {
+      title: "Figure in Landscape",
+      message: "A selection of Figure in Landscape artworks will appear here."
+    },
+    "maithuna": {
+      title: "Maithuna",
+      message: "A selection of artworks related to Maithuna will appear here."
+    },
+    "landscapes": {
+      title: "Landscapes",
+      message: "A selection of landscapes will appear here."
+    },
+    "figure-drawings": {
+      title: "Figure Drawings",
+      message: "A selection of figure drawings will appear here."
+    },
+    "artist-and-studios": {
+      title: "Artist and Studios",
+      message: "A selection of photographs of the artist and studios will appear here."
+    },
+    "writing": {
+      title: "Writing",
+      message: "A selection of writings will appear here."
+    }
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const subjectSlug = params.get("subject");
+  const subject = subjects[subjectSlug] || {
+    title: "Selected Subject",
+    message: "A selection of related works will appear here."
+  };
+
+  document.getElementById("subject-title").textContent = subject.title;
+  document.getElementById("subject-message").textContent = subject.message;
+  document.title = `${subject.title} | Howard Burr`;
+</script>
+</body>
+</html>
