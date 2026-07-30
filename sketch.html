@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketchbook Series | Howard Burr</title>
+  <meta name="description" content="Sketchbook studies by Howard Burr.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header class="site-header">
+  <a class="site-title" href="index.html" aria-label="Howard Burr home page">Howard Burr</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="sculpture.html">Sculpture</a>
+    <a href="drawings.html">Drawings</a>
+    <a href="paintings.html">Paintings</a>
+    <a href="prints.html">Prints</a>
+    <a href="graal-glass.html">Graal Glass</a>
+    <a href="graal-glass-drawings.html">Graal Glass Drawings</a>
+    <a href="sketchbooks.html" aria-current="page">Sketchbooks</a>
+    <a href="selected-subjects.html">Selected Subjects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="page-heading" id="series-title">Sketchbook Series</h1>
+  <p class="page-intro" id="series-message">
+    A selection of sketches from this series will appear here.
+  </p>
+  <p><a href="sketchbooks.html">← Return to Sketchbooks</a></p>
+</main>
+
+<script>
+  const seriesTitles = {
+    "brick-arch-series": "Brick Arch Series",
+    "reassembled-timber-series": "Reassembled Timber Series",
+    "that-change-series": "That Change Series",
+    "a-bride-for-becoming": "A Bride for Becoming",
+    "totem-series": "Totem Series",
+    "before-i-forget-series": "Before I Forget Series",
+    "go-like-that-series": "Go Like That Series",
+    "every-instant-series": "Every Instant Series",
+    "remember-include": "Remember Include",
+    "figure-in-landscape": "Figure in Landscape"
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const seriesSlug = params.get("series");
+  const seriesTitle = seriesTitles[seriesSlug] || "Sketchbook Series";
+
+  document.getElementById("series-title").textContent = seriesTitle;
+  document.getElementById("series-message").textContent =
+    seriesTitle === "Sketchbook Series"
+      ? "A selection of sketches from this series will appear here."
+      : `A selection of sketches from the ${seriesTitle} will appear here.`;
+
+  document.title = `${seriesTitle} | Howard Burr`;
+</script>
+</body>
+</html>

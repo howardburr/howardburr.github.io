@@ -2,44 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sketchbooks | Howard Burr</title>
-  <meta name="description" content="Sketchbook drawings and studies by Howard Burr.">
+  <meta name="description" content="Selected sketchbook series and studies by Howard Burr.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Howard Burr</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="sculpture.html">Sculpture</a>
-      <a href="drawings.html">Drawings</a>
-      <a href="paintings.html">Paintings</a>
-      <a href="prints.html">Prints</a>
-      <a href="graal-glass.html">Graal Glass</a>
-      <a href="sketchbooks.html">Sketchbooks</a>
-      <a href="selected-subjects.html">Selected Subjects</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header class="site-header">
+  <a class="site-title" href="index.html" aria-label="Howard Burr home page">Howard Burr</a>
 
-  <main>
-    <h2>Sketchbooks</h2>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="sculpture.html">Sculpture</a>
+    <a href="drawings.html">Drawings</a>
+    <a href="paintings.html">Paintings</a>
+    <a href="prints.html">Prints</a>
+    <a href="graal-glass.html">Graal Glass</a>
+    <a href="graal-glass-drawings.html">Graal Glass Drawings</a>
+    <a href="sketchbooks.html" aria-current="page">Sketchbooks</a>
+    <a href="selected-subjects.html">Selected Subjects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <p>
-      Selected sketchbook pages and studies developing ideas for paintings,
-      drawings, prints, and sculptures.
-    </p>
+<main>
+  <h1 class="page-heading">Sketchbooks</h1>
+  <p class="page-intro">
+    Selected sketchbook studies organized by sculpture series and subject.
+  </p>
 
-    <section class="gallery-grid" id="artwork-grid">
-      <!-- Sketchbook thumbnails will load here from artwork.json -->
-    </section>
-  </main>
+  <section class="category-grid" aria-label="Sketchbook series">
+    <a class="category-card" href="sketch.html?series=brick-arch-series">
+      <img src="images/navigation-home/sketchbooks/brick-arch-series-sketchbooks-navigation.jpg" alt="Brick Arch Series sketchbook studies">
+      <h2>Brick Arch Series</h2>
+    </a>
 
-  <script src="js/site.js"></script>
-  <script>
-    loadArtworkByCategory("sketchbooks");
-  </script>
+    <a class="category-card" href="sketch.html?series=reassembled-timber-series">
+      <img src="images/navigation-home/sketchbooks/reassembled-timber-series-sketchbooks-navigation.jpg" alt="Reassembled Timber Series sketchbook studies">
+      <h2>Reassembled Timber Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=that-change-series">
+      <img src="images/navigation-home/sketchbooks/that-change-series-sketchbooks-navigation.jpg" alt="That Change Series sketchbook studies">
+      <h2>That Change Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=a-bride-for-becoming">
+      <img src="images/navigation-home/sketchbooks/a-bride-for-becoming-sketchbooks-navigation.jpg" alt="A Bride for Becoming sketchbook studies">
+      <h2>A Bride for Becoming</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=totem-series">
+      <img src="images/navigation-home/sketchbooks/totem-series-sketchbooks-navigation.jpg" alt="Totem Series sketchbook studies">
+      <h2>Totem Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=before-i-forget-series">
+      <img src="images/navigation-home/sketchbooks/before-i-forget-series-sketchbooks-navigation.jpg" alt="Before I Forget Series sketchbook studies">
+      <h2>Before I Forget Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=go-like-that-series">
+      <img src="images/navigation-home/sketchbooks/go-like-that-series-sketchbooks-navigation.jpg" alt="Go Like That Series sketchbook studies">
+      <h2>Go Like That Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=every-instant-series">
+      <img src="images/navigation-home/sketchbooks/every-instant-series-sketchbooks-navigation.jpg" alt="Every Instant Series sketchbook studies">
+      <h2>Every Instant Series</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=remember-include">
+      <img src="images/navigation-home/sketchbooks/remember-include-sketchbooks-navigation.jpg" alt="Remember Include sketchbook studies">
+      <h2>Remember Include</h2>
+    </a>
+
+    <a class="category-card" href="sketch.html?series=figure-in-landscape">
+      <img src="images/navigation-home/sketchbooks/figure-in-landscape-sketchbooks-navigation.jpg" alt="Figure in Landscape sketchbook studies">
+      <h2>Figure in Landscape</h2>
+    </a>
+  </section>
+</main>
 </body>
 </html>
