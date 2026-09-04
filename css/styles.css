@@ -184,3 +184,62 @@ main {
   text-decoration: underline;
   text-underline-offset: 0.22em;
 }
+
+/* Artwork gallery */
+
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.artwork-card {
+  margin: 0;
+}
+
+.artwork-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.artwork-caption {
+  padding-top: 0.65rem;
+}
+
+.artwork-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.artwork-year {
+  margin: 0.2rem 0 0;
+  color: var(--muted-color);
+  font-size: 0.95rem;
+}
+
+.gallery-error {
+  grid-column: 1 / -1;
+  color: var(--muted-color);
+}
+
+@media (max-width: 900px) {
+  .artwork-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .artwork-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .artwork-grid {
+    grid-template-columns: 1fr;
+  }
+}
