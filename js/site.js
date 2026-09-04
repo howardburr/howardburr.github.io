@@ -22,7 +22,76 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     return isSculpture && isVisible;
   })
-  .sort((a, b) => Number(b.year) - Number(a.year));
+ .sort((a, b) => {
+  // 1. Newest year first.
+  const yearDifference = Number(b.year) - Number(a.year);
+
+  if (yearDifference !== 0) {
+    return yearDifference;
+  }
+
+  const getSortParts = (item) => {
+    const id = item.id;
+
+    // Normal IDs:
+    // sc-1980-900-a-bride-for-becoming-02
+    const normalMatch = id.match(
+      /^[a-z]+-\d{4}-(\d{3})-.*?-(\d{2,3})(?:-|$)/i
+    );
+
+    if (normalMatch) {
+      return {
+        sequence: Number(normalMatch[1]),
+        itemNumber: Number(normalMatch[2]),
+      };
+    }
+
+    // Normal ID with no later numbered series item.
+    const sequenceMatch = id.match(
+      /^[a-z]+-\d{4}-(\d{3})-/i
+    );
+
+    if (sequenceMatch) {
+      return {
+        sequence: Number(sequenceMatch[1]),
+        itemNumber: 0,
+      };
+    }
+
+    // Snowmen are the exception because they omit the 3-digit
+    // chronology number:
+    // sc-1984-snowmen-03-ah-om
+    const snowmanMatch = id.match(
+      /^[a-z]+-\d{4}-snowmen-(\d{2})-/i
+    );
+
+    if (snowmanMatch) {
+      return {
+        sequence: 0,
+        itemNumber: Number(snowmanMatch[1]),
+      };
+    }
+
+    return {
+      sequence: 0,
+      itemNumber: 0,
+    };
+  };
+
+  const aParts = getSortParts(a);
+  const bParts = getSortParts(b);
+
+  // 2. Higher 3-digit chronology number first.
+  const sequenceDifference =
+    bParts.sequence - aParts.sequence;
+
+  if (sequenceDifference !== 0) {
+    return sequenceDifference;
+  }
+
+  // 3. Within the same sequence, higher numbered work first.
+  return bParts.itemNumber - aParts.itemNumber;
+});
 
     sculptures.forEach((item) => {
       const card = document.createElement("article");
