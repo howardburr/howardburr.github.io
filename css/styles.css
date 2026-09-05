@@ -243,3 +243,165 @@ main {
     grid-template-columns: 1fr;
   }
 }
+/* Individual artwork page */
+
+.artwork-detail {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.artwork-main-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 950px;
+  max-height: 60vh;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.artwork-info {
+  max-width: 950px;
+  margin: 0.7rem auto 0;
+}
+
+.artwork-detail-title {
+  margin: 0 0 0.45rem;
+  font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.artwork-detail-year,
+.artwork-detail-materials,
+.artwork-detail-dimensions {
+  margin: 0.1rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+/* Extra views */
+
+.artwork-extra-views {
+  margin-top: 2.25rem;
+}
+
+.artwork-section-heading {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.artwork-extra-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.extra-image-button {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.extra-image-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 650px) {
+  .artwork-extra-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Lightbox */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 5rem;
+  background: rgba(0, 0, 0, 0.88);
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox-image {
+  display: block;
+  max-width: 92vw;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.lightbox-close,
+.lightbox-previous,
+.lightbox-next {
+  position: fixed;
+  border: 0;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1;
+}
+
+.lightbox-close {
+  top: 1.25rem;
+  right: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.lightbox-previous,
+.lightbox-next {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+}
+
+.lightbox-previous {
+  left: 1.25rem;
+}
+
+.lightbox-next {
+  right: 1.25rem;
+}
+
+.lightbox-counter {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 0.9rem;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+@media (max-width: 650px) {
+  .lightbox {
+    padding: 3.5rem 2.5rem;
+  }
+
+  .lightbox-previous {
+    left: 0.25rem;
+  }
+
+  .lightbox-next {
+    right: 0.25rem;
+  }
+}
