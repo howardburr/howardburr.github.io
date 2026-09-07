@@ -1,3 +1,21 @@
+const categoryByPage = {
+  "sculpture.html": "SC",
+  "graal-glass.html": "GG",
+  "graal-glass-drawings.html": "GGD",
+  "drawings.html": "DR",
+  "paintings.html": "PT",
+  "prints.html": "PR"
+};
+
+const folderByCategory = {
+  SC: "sculpture",
+  GG: "graal-glass",
+  GGD: "graal-glass-drawings",
+  DR: "drawings",
+  PT: "paintings",
+  PR: "prints"
+};
+
 document.addEventListener("DOMContentLoaded", async () => {
   const artworkGrid = document.getElementById("artwork-grid");
 
@@ -15,12 +33,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const artwork = await response.json();
 
-   const sculptures = artwork
+   
+    const currentPage = window.location.pathname.split("/").pop();
+const currentCategory = categoryByPage[currentPage];
+
+const galleryItems = artwork
   .filter((item) => {
-    const isSculpture = item.category === "SC";
+    const isCorrectCategory = item.category === currentCategory;
     const isVisible = item.status !== "hidden";
 
-    return isSculpture && isVisible;
+    return isCorrectCategory && isVisible;
   })
  .sort((a, b) => {
   // 1. Newest year first.
@@ -93,13 +115,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   return bParts.itemNumber - aParts.itemNumber;
 });
 
-    sculptures.forEach((item) => {
+   galleryItems.forEach((item) => {
         const card = document.createElement("a");
 card.className = "artwork-card";
 card.href = `artwork.html?id=${encodeURIComponent(item.id)}`;
 
       const image = document.createElement("img");
-      image.src = `images/thumbs/sculpture/${item["image-thumb"]}`;
+     const imageFolder = folderByCategory[item.category];
+image.src = `images/thumbs/${imageFolder}/${item["image-thumb"]}`;
       image.alt = `${item.title}, ${item.year}`;
       image.loading = "lazy";
 
@@ -127,7 +150,7 @@ card.href = `artwork.html?id=${encodeURIComponent(item.id)}`;
 
     const message = document.createElement("p");
     message.className = "gallery-error";
-    message.textContent = "The sculpture gallery could not be loaded.";
+   message.textContent = "The artwork gallery could not be loaded.";
 
     artworkGrid.appendChild(message);
   }
@@ -162,10 +185,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       throw new Error(`Artwork not found: ${artworkId}`);
     }
 
-    const mainImage = document.createElement("img");
-    mainImage.className = "artwork-main-image";
-    mainImage.src = `images/main/sculpture/${item["image-main"]}`;
-    mainImage.alt = `${item.title}, ${item.year}`;
+  const mainImage = document.createElement("img");
+mainImage.className = "artwork-main-image";
+
+const imageFolder = folderByCategory[item.category];
+mainImage.src = `images/main/${imageFolder}/${item["image-main"]}`;
+
+mainImage.alt = `${item.title}, ${item.year}`;
 
     const info = document.createElement("div");
     info.className = "artwork-info";
