@@ -28,6 +28,7 @@
     "title": "Brick Arch I",
     "year": "1977",
     "category": "SC",
+    "tags": "brick-arch-series",
     "materials": "brick, wood, nails, cable, and cast concrete",
     "dimensions": "40 × 108 × 10 in.",
     "image-main": "sc-1977-010-brick-arch-01-main.jpg",
@@ -35,7 +36,6 @@
     "extra-view-01": "sc-1977-010-brick-arch-01-detail-01.jpg",
     "extra-view-02": "sc-1977-010-brick-arch-01-detail-02.jpg",
     "extra-view-03": "sc-1977-010-brick-arch-01-side.jpg",
-    "tags": "brick-arch-series",
     "slug": "brick-arch-01"
   },
   {
@@ -43,11 +43,11 @@
     "title": "Brick Arch II",
     "year": "1977",
     "category": "SC",
+    "tags": "brick-arch-series",
     "materials": "brick, wood, and stones",
     "dimensions": "20 × 40 × 8 in.",
     "image-main": "sc-1977-020-brick-arch-02.jpg",
     "image-thumb": "sc-1977-020-brick-arch-02-thumb.jpg",
-    "tags": "brick-arch-series",
     "slug": "brick-arch-02"
   },
   {
@@ -55,11 +55,11 @@
     "title": "Brick Arch III",
     "year": "1977",
     "category": "SC",
+    "tags": "brick-arch-series",
     "materials": "brick, wood, and steel cable",
     "dimensions": "34 × 50 × 14 in.",
     "image-main": "sc-1977-030-brick-arch-03-main.jpg",
     "image-thumb": "sc-1977-030-brick-arch-03-thumb.jpg",
-    "tags": "brick-arch-series",
     "slug": "brick-arch-03"
   },
   {
@@ -67,11 +67,11 @@
     "title": "Brick Arch IV",
     "year": "1977",
     "category": "SC",
+    "tags": "brick-arch-series",
     "materials": "brick, steel",
     "dimensions": "27 × 30 × 8 in.",
     "image-main": "sc-1977-040-brick-arch-04-main.jpg",
     "image-thumb": "sc-1977-040-brick-arch-04-thumb.jpg",
-    "tags": "brick-arch-series",
     "slug": "brick-arch-04"
   },
   {
@@ -79,13 +79,13 @@
     "title": "That Change I - Corrugated Steel",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "corrugated steel, brick, glass bottles",
     "dimensions": "72 × 72 × 30 in.",
     "image-main": "sc-1978-150-that-change-01-corrugated-steel-main.jpg",
     "image-thumb": "sc-1978-150-that-change-01-corrugated-steel-thumb.jpg",
     "extra-view-01": "sc-1978-150-that-change-01-corrugated-steel-detail.jpg",
     "extra-view-02": "sc-1978-150-that-change-01-corrugated-steel-side.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-01-corrugated-steel"
   },
   {
@@ -93,12 +93,12 @@
     "title": "That Change II Corrugated Steel",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "corrugated steel, plexiglass, glass, and brick",
     "dimensions": "72 × 72 × 30 in.",
     "image-main": "sc-1978-150-that-change-02-corrugated-steel-main.jpg",
     "image-thumb": "sc-1978-150-that-change-02-corrugated-steel-thumb.jpg",
     "extra-view-01": "sc-1978-150-that-change-02-corrugated-steel-detail.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-02-corrugated-steel"
   },
   {
@@ -106,12 +106,12 @@
     "title": "That Change III - Column",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "brick, bottles, plexiglass, aluminum",
     "dimensions": "24 × 24 × 24 in.",
     "image-main": "sc-1978-200-that-change-03-column-main.jpg",
     "image-thumb": "sc-1978-200-that-change-03-column-thumb.jpg",
     "extra-view-01": "sc-1978-200-that-change-03-column-side.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-03-column"
   },
   {
@@ -119,6 +119,7 @@
     "title": "That Change IV - Wood",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "wood, brick, and tin cans",
     "dimensions": "36 × 36 × 72 in.",
     "image-main": "sc-1978-250-that-change-04-wood-main.jpg",
@@ -126,7 +127,6 @@
     "extra-view-01": "sc-1978-250-that-change-04-wood-side-01.jpg",
     "extra-view-02": "sc-1978-250-that-change-04-wood-side-02.jpg",
     "extra-view-03": "sc-1978-250-that-change-04-wood-side-03.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-04-wood"
   },
   {
@@ -134,13 +134,13 @@
     "title": "That Change V - Boiling Earth",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "concrete pavers, brick, plexiglass, steel, mirror, steam-bent wood",
     "dimensions": "18 × 50 × 50 in.",
     "image-main": "sc-1978-300-that-change-05-boiling-earth-main.jpg",
     "image-thumb": "sc-1978-300-that-change-05-boiling-earth-thumb.jpg",
     "extra-view-01": "sc-1978-300-that-change-05-boiling-earth-side-01.jpg",
     "extra-view-02": "sc-1978-300-that-change-05-boiling-earth-side-02.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-05-boiling-earth"
   },
   {
@@ -148,12 +148,12 @@
     "title": "That Change VI - Boiling Earth",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "concrete pavers, brick, plexiglass, steel, steam-bent wood",
     "dimensions": "18 × 50 × 50 in.",
     "image-main": "sc-1978-350-that-change-06-boiling-earth-main.jpg",
     "image-thumb": "sc-1978-350-that-change-06-boiling-earth-thumb.jpg",
     "extra-view-01": "sc-1978-350-that-change-06-boiling-earth-side.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-06-boiling-earth"
   },
   {
@@ -161,11 +161,11 @@
     "title": "That Change VII - Cinder Block",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "cinder block, wood, brick, glass bottles, steel",
     "dimensions": "72 × 48 × 8 in.",
     "image-main": "sc-1978-400-that-change-07-cinder-block-main.jpg",
     "image-thumb": "sc-1978-400-that-change-07-cinder-block-thumb.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-07-cinder-block"
   },
   {
@@ -185,13 +185,13 @@
     "title": "Reassembled Timber I",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "stained timber and steel spikes",
     "dimensions": "30 × 60 × 10 in.",
     "image-main": "sc-1978-600-reassembled-timber-01-main.jpg",
     "image-thumb": "sc-1978-600-reassembled-timber-01-thumb.jpg",
     "extra-view-01": "sc-1978-600-reassembled-timber-01-installation.jpg",
     "extra-view-02": "sc-1978-600-reassembled-timber-01-side.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-01"
   },
   {
@@ -199,11 +199,11 @@
     "title": "Reassembled Timber II",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "wood and steel spikes",
     "dimensions": "30 × 24 × 10 in.",
     "image-main": "sc-1978-650-reassembled-timber-02-main.jpg",
     "image-thumb": "sc-1978-650-reassembled-timber-02-thumb.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-02"
   },
   {
@@ -211,13 +211,13 @@
     "title": "Reassembled Timber III",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "wood",
     "dimensions": "36 × 36 × 16 in.",
     "image-main": "sc-1978-675-reassembled-timber-03-main.jpg",
     "image-thumb": "sc-1978-675-reassembled-timber-03-thumb.jpg",
     "extra-view-01": "sc-1978-675-reassembled-timber-03-installation.jpg",
     "extra-view-02": "sc-1978-675-reassembled-timber-03-side.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-03"
   },
   {
@@ -225,12 +225,12 @@
     "title": "Reassembled Timber IV",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "carved wood",
     "dimensions": "80 × 8 × 8 in.",
     "image-main": "sc-1978-700-reassembled-timber-04-main.jpg",
     "image-thumb": "sc-1978-700-reassembled-timber-04-thumb.jpg",
     "extra-view-01": "sc-1978-700-reassembled-timber-04-detail.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-04"
   },
   {
@@ -238,13 +238,13 @@
     "title": "Reassembled Timber V",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "steam-bent wood, and brick",
     "dimensions": "20 × 98 × 80 in.",
     "image-main": "sc-1978-750-reassembled-timber-05-main.jpg",
     "image-thumb": "sc-1978-750-reassembled-timber-05-thumb.jpg",
     "extra-view-01": "sc-1978-750-reassembled-timber-05-back.jpg",
     "extra-view-02": "sc-1978-750-reassembled-timber-05-side.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-05"
   },
   {
@@ -252,13 +252,13 @@
     "title": "Reassembled Timber VI",
     "year": "1978",
     "category": "SC",
+    "tags": "reassembled-timber-series",
     "materials": "stained timber, brick, and steel",
     "dimensions": "36 × 36 × 36 in.",
     "image-main": "sc-1978-775-reassembled-timber-06-main.jpg",
     "image-thumb": "sc-1978-775-reassembled-timber-06-thumb.jpg",
     "extra-view-01": "sc-1978-775-reassembled-timber-06-installation.jpg",
     "extra-view-02": "sc-1978-775-reassembled-timber-06-side.jpg",
-    "tags": "reassembled-timber-series",
     "slug": "reassembled-timber-06"
   },
   {
@@ -266,6 +266,7 @@
     "title": "That Change VIII - Cracked Timber",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "brick, steel, wood, and plexiglass",
     "dimensions": "84 × 120 × 96 in.",
     "image-main": "sc-1978-900-that-change-08-cracked-timber-main.jpg",
@@ -274,7 +275,6 @@
     "extra-view-02": "sc-1978-900-that-change-08-cracked-timber-detail-02.jpg",
     "extra-view-03": "sc-1978-900-that-change-08-cracked-timber-side-01.jpg",
     "extra-view-04": "sc-1978-900-that-change-08-cracked-timber-side-02.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-08-cracked-timber"
   },
   {
@@ -282,13 +282,13 @@
     "title": "That Change IX - Beginning",
     "year": "1978",
     "category": "SC",
+    "tags": "that-change-series",
     "materials": "brick, polished and brushed steel, forged steel, and plexiglass",
     "dimensions": "12 × 48 × 48 in.",
     "image-main": "sc-1978-950-that-change-09-beginning-main.jpg",
     "image-thumb": "sc-1978-950-that-change-09-beginning-thumb.jpg",
     "extra-view-01": "sc-1978-950-that-change-09-beginning-detail.jpg",
     "extra-view-02": "sc-1978-950-that-change-09-beginning-top.jpg",
-    "tags": "that-change-series",
     "slug": "that-change-09-beginning"
   },
   {
@@ -309,6 +309,7 @@
     "title": "The Pharaoh's Nose",
     "year": "1979",
     "category": "SC",
+    "tags": "the-pharaohs-nose",
     "materials": "steel, burnished steel, brick, and fiberglass",
     "dimensions": "96 × 110 × 48 in.",
     "image-main": "sc-1979-070-the-pharaohs-nose-main.jpg",
@@ -317,7 +318,6 @@
     "extra-view-02": "sc-1979-070-the-pharaohs-nose-detail-01.jpg",
     "extra-view-03": "sc-1979-070-the-pharaohs-nose-installation.jpg",
     "extra-view-04": "sc-1979-070-the-pharaohs-nose-side-01.jpg",
-    "tags": "the-pharaohs-nose",
     "slug": "the-pharaohs-nose"
   },
   {
@@ -325,12 +325,12 @@
     "title": "Totem I - Cracked Stack",
     "year": "1979",
     "category": "SC",
+    "tags": "totem-series",
     "materials": "brick, glass, steel, plexiglass, and cable",
     "dimensions": "48 × 8 × 4 in.",
     "image-main": "sc-1979-100-totem-01-cracked-stack-main.jpg",
     "image-thumb": "sc-1979-100-totem-01-cracked-stack-thumb.jpg",
     "extra-view-01": "sc-1979-100-totem-01-cracked-stack-detail.jpg",
-    "tags": "totem-series",
     "slug": "totem-01-cracked-stack"
   },
   {
@@ -338,6 +338,7 @@
     "title": "Totem II - Stacks Fiberglassed",
     "year": "1979",
     "category": "SC",
+    "tags": "totem-series",
     "materials": "brick, glass, steel, and fiberglass",
     "dimensions": "60 × 5 × 5 in.",
     "image-main": "sc-1979-200-totem-02-stacks-in-fiberglass-main.jpg",
@@ -345,7 +346,6 @@
     "extra-view-01": "sc-1979-200-totem-02-stacks-in-fiberglass-back.jpg",
     "extra-view-02": "sc-1979-200-totem-02-stacks-in-fiberglass-detail-01.jpg",
     "extra-view-03": "sc-1979-200-totem-02-stacks-in-fiberglass-detail-02.jpg",
-    "tags": "totem-series",
     "slug": "totem-02-stacks-in-fiberglass"
   },
   {
@@ -353,6 +353,7 @@
     "title": "Totem III - 2V's",
     "year": "1979",
     "category": "SC",
+    "tags": "totem-series",
     "materials": "steel, burnished galvanized steel, and brick",
     "dimensions": "96 × 120 × 72 in.",
     "image-main": "sc-1979-300-totem-03-2vs-main.jpg",
@@ -362,7 +363,6 @@
     "extra-view-03": "sc-1979-300-totem-03-2vs-detail-03.jpg",
     "extra-view-04": "sc-1979-300-totem-03-2vs-installation.jpg",
     "extra-view-05": "sc-1979-300-totem-03-2vs-side.jpg",
-    "tags": "totem-series",
     "slug": "totem-03-2vs"
   },
   {
@@ -370,6 +370,7 @@
     "title": "Totem IV - Water Bearer",
     "year": "1979",
     "category": "SC",
+    "tags": "totem-series",
     "materials": "marble, steel",
     "dimensions": "96 × 18 × 14 in.",
     "image-main": "sc-1979-400-totem-04-water-bearer-main.jpg",
@@ -377,7 +378,6 @@
     "extra-view-01": "sc-1979-400-totem-04-water-bearer-detail-01.jpg",
     "extra-view-02": "sc-1979-400-totem-04-water-bearer-detail-02.jpg",
     "extra-view-03": "sc-1979-400-totem-04-water-bearer-installation.jpg",
-    "tags": "totem-series",
     "slug": "totem-04-water-bearer"
   },
   {
@@ -385,6 +385,7 @@
     "title": "Before I Forget I",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "burnished galvanized steel, forged steel, brick, and melted plexiglass",
     "dimensions": "72 × 36 × 36 in.",
     "image-main": "sc-1980-100-before-i-forget-01-main.jpg",
@@ -392,7 +393,6 @@
     "extra-view-01": "sc-1980-100-before-i-forget-01-back-01.jpg",
     "extra-view-02": "sc-1980-100-before-i-forget-01-back-02.jpg",
     "extra-view-03": "sc-1980-100-before-i-forget-01-detail-01.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-01"
   },
   {
@@ -400,12 +400,12 @@
     "title": "Before I Forget II",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "galvanized steel, brick, venetian blinds, and melted wax",
     "dimensions": "72 × 36 × 36 in.",
     "image-main": "sc-1980-200-before-i-forget-02-main.jpg",
     "image-thumb": "sc-1980-200-before-i-forget-02-thumb.jpg",
     "extra-view-01": "sc-1980-200-before-i-forget-02-inside.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-02"
   },
   {
@@ -413,6 +413,7 @@
     "title": "Before I Forget III",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "galvanized steel, wax, forged steel, brick, venetian blinds, melted plexiglass, fiberglass, and cups",
     "dimensions": "72 × 30 × 30 in.",
     "image-main": "sc-1980-300-before-i-forget-03-main.jpg",
@@ -420,7 +421,6 @@
     "extra-view-01": "sc-1980-300-before-i-forget-03-back-01.jpg",
     "extra-view-02": "sc-1980-300-before-i-forget-03-detail-01.jpg",
     "extra-view-03": "sc-1980-300-before-i-forget-03-detail-02.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-03"
   },
   {
@@ -428,6 +428,7 @@
     "title": "Before I Forget IV",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "burnished galvanized steel, brick, glass, venetian blinds, fiberglass, cups, and wax",
     "dimensions": "72 × 30 × 30 in.",
     "image-main": "sc-1980-400-before-i-forget-04-main.jpg",
@@ -435,7 +436,6 @@
     "extra-view-01": "sc-1980-400-before-i-forget-04-detail-01.jpg",
     "extra-view-02": "sc-1980-400-before-i-forget-04-detail-02.jpg",
     "extra-view-03": "sc-1980-400-before-i-forget-04-side.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-04"
   },
   {
@@ -443,13 +443,13 @@
     "title": "Before I Forget V",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "galvanized steel, venetian blinds, brick, glass, wax",
     "dimensions": "72 × 30 × 30 in.",
     "image-main": "sc-1980-500-before-i-forget-05-main.jpg",
     "image-thumb": "sc-1980-500-before-i-forget-05-thumb.jpg",
     "extra-view-01": "sc-1980-500-before-i-forget-05-back.jpg",
     "extra-view-02": "sc-1980-500-before-i-forget-05-detail-01.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-05"
   },
   {
@@ -457,6 +457,7 @@
     "title": "Before I Forget VI",
     "year": "1980",
     "category": "SC",
+    "tags": "before-i-forget-series",
     "materials": "galvanized steel, forged steel, brick, venetian blinds, glass, and melted wax",
     "dimensions": "72 × 30 × 30 in.",
     "image-main": "sc-1980-600-before-i-forget-06-main.jpg",
@@ -465,7 +466,6 @@
     "extra-view-02": "sc-1980-600-before-i-forget-06-detail-01.jpg",
     "extra-view-03": "sc-1980-600-before-i-forget-06-detail-02.jpg",
     "extra-view-04": "sc-1980-600-before-i-forget-06-side.jpg",
-    "tags": "before-i-forget-series",
     "slug": "before-i-forget-06"
   },
   {
@@ -473,6 +473,7 @@
     "title": "A Bride for Becoming",
     "year": "1980",
     "category": "SC",
+    "tags": "a-bride-for-becoming",
     "materials": "steel, burnished galvanized steel, venetian blinds, glass, wax, and ceramic cups",
     "dimensions": "96 × 156 × 60 in.",
     "image-main": "sc-1980-900-a-bride-for-becoming-01-main.jpg",
@@ -482,7 +483,6 @@
     "extra-view-03": "sc-1980-900-a-bride-for-becoming-01-installation.jpg",
     "extra-view-04": "sc-1980-900-a-bride-for-becoming-01-side-01.jpg",
     "extra-view-05": "sc-1980-900-a-bride-for-becoming-01-side-02.jpg",
-    "tags": "a-bride-for-becoming",
     "slug": "a-bride-for-becoming-01"
   },
   {
@@ -490,11 +490,11 @@
     "title": "A Bride for Becoming II - The Honeymoon",
     "year": "1980",
     "category": "SC",
+    "tags": "a-bride-for-becoming",
     "materials": "galvanized steel, venetian blinds, fiberglass, and brick",
     "dimensions": "36 × 72 × 72 in.",
     "image-main": "sc-1980-900-a-bride-for-becoming-02-main.jpg",
     "image-thumb": "sc-1980-900-a-bride-for-becoming-02-thumb.jpg",
-    "tags": "a-bride-for-becoming",
     "slug": "a-bride-for-becoming-02"
   },
   {
@@ -502,6 +502,7 @@
     "title": "Every Instant I",
     "year": "1981",
     "category": "SC",
+    "tags": "every-instant-series",
     "materials": "steel, tin cans, plastic, venetian blinds, and glow-in-the-dark paint",
     "dimensions": "79 × 156 × 48 in.",
     "image-main": "sc-1981-100-every-instant-01-main.jpg",
@@ -510,7 +511,6 @@
     "extra-view-02": "sc-1981-100-every-instant-01-detail-02.jpg",
     "extra-view-03": "sc-1981-100-every-instant-01-side-01.jpg",
     "extra-view-04": "sc-1981-100-every-instant-01-side-02.jpg",
-    "tags": "every-instant-series",
     "slug": "every-instant-01"
   },
   {
@@ -518,12 +518,12 @@
     "title": "Every Instant II",
     "year": "1981",
     "category": "SC",
+    "tags": "every-instant-series",
     "materials": "steel, tin cans, venetian blinds, glow-in-the-dark paint, and plastic",
     "dimensions": "76 × 192 × 43 in.",
     "image-main": "sc-1981-200-every-instant-02-main.jpg",
     "image-thumb": "sc-1981-200-every-instant-02-thumb.jpg",
     "extra-view-01": "sc-1981-200-every-instant-02-side.jpg",
-    "tags": "every-instant-series",
     "slug": "every-instant-02"
   },
   {
@@ -531,6 +531,7 @@
     "title": "Every Instant III",
     "year": "1982",
     "category": "SC",
+    "tags": "every-instant-series",
     "materials": "steel, tin cans, venetian blinds, and glow-in-the-dark paint",
     "dimensions": "76 × 192 × 43 in.",
     "image-main": "sc-1982-100-every-instant-03-main.jpg",
@@ -539,7 +540,6 @@
     "extra-view-02": "sc-1982-100-every-instant-03-detail-02.jpg",
     "extra-view-03": "sc-1982-100-every-instant-03-detail-03.jpg",
     "extra-view-04": "sc-1982-100-every-instant-03-side-01.jpg",
-    "tags": "every-instant-series",
     "slug": "every-instant-03"
   },
   {
@@ -547,6 +547,7 @@
     "title": "Go Like That I",
     "year": "1983",
     "category": "SC",
+    "tags": "go-like-that-series",
     "materials": "steel, tin cans, venetian blinds, plastic lids, and glow-in-the-dark paint",
     "dimensions": "103 × 41 × 81 in.",
     "image-main": "sc-1983-100-go-like-that-01-main.jpg",
@@ -555,7 +556,6 @@
     "extra-view-02": "sc-1983-100-go-like-that-01-detail-01.jpg",
     "extra-view-03": "sc-1983-100-go-like-that-01-detail-02.jpg",
     "extra-view-04": "sc-1983-100-go-like-that-01-side.jpg",
-    "tags": "go-like-that-series",
     "slug": "go-like-that-01"
   },
   {
@@ -563,6 +563,7 @@
     "title": "Go Like That II",
     "year": "1983",
     "category": "SC",
+    "tags": "go-like-that-series",
     "materials": "steel, tin cans, venetian blinds, plastic lids, and glow-in-the-dark paint",
     "dimensions": "101 × 58 × 60 in.",
     "image-main": "sc-1983-200-go-like-that-02-main.jpg",
@@ -572,7 +573,6 @@
     "extra-view-03": "sc-1983-200-go-like-that-02-back-03.jpg",
     "extra-view-04": "sc-1983-200-go-like-that-02-detail-01.jpg",
     "extra-view-05": "sc-1983-200-go-like-that-02-detail-02.jpg",
-    "tags": "go-like-that-series",
     "slug": "go-like-that-02"
   },
   {
@@ -580,6 +580,7 @@
     "title": "Snowmen I, H R I V",
     "year": "1984",
     "category": "SC",
+    "tags": "snow-man-series",
     "materials": "steel, and tin cans",
     "dimensions": "92 × 56 × 39 in.",
     "image-main": "sc-1984-snowmen-01-hriv-main.jpg",
@@ -590,7 +591,6 @@
     "extra-view-04": "sc-1984-snowmen-01-hriv-front-01.jpg",
     "extra-view-05": "sc-1984-snowmen-01-hriv-side-01.jpg",
     "extra-view-06": "sc-1984-snowmen-group-main.jpg",
-    "tags": "snow-man-series",
     "slug": "snowmen-01-hriv"
   },
   {
@@ -598,6 +598,7 @@
     "title": "Snowmen II, HAM RAM",
     "year": "1984",
     "category": "SC",
+    "tags": "snow-man-series",
     "materials": "steel, tin cans, glow-in-the-dark paint",
     "dimensions": "106 × 52 × 39 in.",
     "image-main": "sc-1984-snowmen-02-ham-ram-main.jpg",
@@ -607,7 +608,6 @@
     "extra-view-03": "sc-1984-snowmen-02-ham-ram-front.jpg",
     "extra-view-04": "sc-1984-snowmen-02-ham-ram-side.jpg",
     "extra-view-05": "sc-1984-snowmen-group-main.jpg",
-    "tags": "snow-man-series",
     "slug": "snowmen-02-ham-ram"
   },
   {
@@ -615,6 +615,7 @@
     "title": "Snowmen III, AH OM",
     "year": "1984",
     "category": "SC",
+    "tags": "snow-man-series",
     "materials": "steel, tin cans, and glow-in-the-dark paint",
     "dimensions": "96 × 56 × 39 in.",
     "image-main": "sc-1984-snowmen-03-ah-om-main.jpg",
@@ -625,7 +626,6 @@
     "extra-view-04": "sc-1984-snowmen-03-ah-om-detail-03.jpg",
     "extra-view-05": "sc-1984-snowmen-03-ah-om-front.jpg",
     "extra-view-06": "sc-1984-snowmen-group-main.jpg",
-    "tags": "snow-man-series",
     "slug": "snowmen-03-ah-om"
   },
   {
@@ -633,12 +633,12 @@
     "title": "Remember Include",
     "year": "1985",
     "category": "SC",
+    "tags": "remember-include",
     "materials": "steel, epoxy, and wax",
     "dimensions": "96 × 36 × 24 in.",
     "image-main": "sc-1985-050-remember-include-main.jpg",
     "image-thumb": "sc-1985-050-remember-include-thumb.jpg",
     "extra-view-01": "sc-1985-050-remember-include-detail-01.jpg",
-    "tags": "remember-include",
     "slug": "remember-include"
   },
   {
@@ -1597,5 +1597,397 @@
     "image-main": "ggd-adrift-dwg-01.jpg",
     "image-thumb": "ggd-adrift-dwg-01-thumb.jpg",
     "slug": "adrift-dwg-01"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-900",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "watercolor and crayon on paper",
+    "dimensions": "30 × 24 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-900.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-900-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-900"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-850",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "gouache and watercolor on paper",
+    "dimensions": "30 × 24 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-850.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-850-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-850"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-830",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "watercolor and graphite on paper",
+    "dimensions": "18 × 12 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-830.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-830-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-830"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-820",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "watercolor, ink, graphite, and crayon on paper",
+    "dimensions": "14 × 10 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-820.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-820-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-820"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-800",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "gouache and watercolor on paper",
+    "dimensions": "30 × 22 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-800.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-800-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-800"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-790",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "gouache and watercolor on rice paper",
+    "dimensions": "20 × 18 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-790.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-790-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-790"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-780",
+    "title": "Maithuna Through the Great Bliss State",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "watercolor on rice paper",
+    "dimensions": "22 × 18 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-780.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-780-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-780"
+  },
+  {
+    "id": "pt-1977-900-maithuna-bliss-770",
+    "title": "Maithuna Bliss",
+    "year": "1977",
+    "category": "PT",
+    "tags": "through-the-great-bliss-state",
+    "materials": "gouache, watercolor, and graphite on paper",
+    "dimensions": "14 × 11 in.",
+    "image-main": "pt-1977-900-maithuna-bliss-770.jpg",
+    "image-thumb": "pt-1977-900-maithuna-bliss-770-thumb.jpg",
+    "slug": "pt-1977-900-maithuna-bliss-770"
+  },
+  {
+    "id": "pt-1977-850-self-portrait-sun",
+    "title": "Self-Portrait with the Sun",
+    "year": "1977",
+    "category": "PT",
+    "tags": "self-portraits",
+    "materials": "gouache and watercolor on paper",
+    "dimensions": "29 × 22 in.",
+    "image-main": "pt-1977-850-self-portrait-sun.jpg",
+    "image-thumb": "pt-1977-850-self-portrait-sun-thumb.jpg",
+    "slug": "pt-1977-850-self-portrait-sun"
+  },
+  {
+    "id": "pt-1977-800-mahabhuta-lila-grid-200",
+    "title": "Mahabhuta Lila Grid",
+    "year": "1977",
+    "category": "PT",
+    "materials": "watercolor and graphite on paper",
+    "dimensions": "8 × 6 in.",
+    "image-main": "pt-1977-800-mahabhuta-lila-grid-200.jpg",
+    "image-thumb": "pt-1977-800-mahabhuta-lila-grid-200-thumb.jpg",
+    "slug": "pt-1977-800-mahabhuta-lila-grid-200"
+  },
+  {
+    "id": "pt-1977-800-mahabhuta-lila-grid-100",
+    "title": "Mahabhuta Lila Grid",
+    "year": "1977",
+    "category": "PT",
+    "materials": "watercolor on paper",
+    "dimensions": "12 × 9 in.",
+    "image-main": "pt-1977-800-mahabhuta-lila-grid-100.jpg",
+    "image-thumb": "pt-1977-800-mahabhuta-lila-grid-100-thumb.jpg",
+    "slug": "pt-1977-800-mahabhuta-lila-grid-100"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-900",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor and crayon on paper",
+    "dimensions": "22 × 15 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-900.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-900-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-900"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-850",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor and crayon on paper",
+    "dimensions": "14 × 11 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-850.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-850-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-850"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-825",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor and crayon on paper",
+    "dimensions": "24 × 18 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-825.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-825-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-825"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-800",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor and graphite on paper",
+    "dimensions": "12 × 9 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-800.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-800-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-800"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-700",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor, marker, and graphite on paper",
+    "dimensions": "9 × 12 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-700.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-700-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-700"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-600",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "watercolor on paper",
+    "dimensions": "14 × 11 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-600.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-600-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-600"
+  },
+  {
+    "id": "pt-1977-700-figure-in-landscape-500",
+    "title": "Figure in Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "figure-in-landscape-series",
+    "materials": "ink on paper",
+    "dimensions": "27 × 23 in.",
+    "image-main": "pt-1977-700-figure-in-landscape-500.jpg",
+    "image-thumb": "pt-1977-700-figure-in-landscape-500-thumb.jpg",
+    "slug": "pt-1977-700-figure-in-landscape-500"
+  },
+  {
+    "id": "pt-1977-600-landscape-900",
+    "title": "Landscape Seascape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "ink wash on paper",
+    "dimensions": "18 × 24 in.",
+    "image-main": "pt-1977-600-landscape-900.jpg",
+    "image-thumb": "pt-1977-600-landscape-900-thumb.jpg",
+    "slug": "pt-1977-600-landscape-900"
+  },
+  {
+    "id": "pt-1977-600-landscape-860",
+    "title": "Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "watercolor on paper",
+    "dimensions": "21 × 28 in.",
+    "image-main": "pt-1977-600-landscape-860.jpg",
+    "image-thumb": "pt-1977-600-landscape-860-thumb.jpg",
+    "slug": "pt-1977-600-landscape-860"
+  },
+  {
+    "id": "pt-1977-600-landscape-850",
+    "title": "Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "gouache on paper",
+    "dimensions": "12 × 19 in.",
+    "image-main": "pt-1977-600-landscape-850.jpg",
+    "image-thumb": "pt-1977-600-landscape-850-thumb.jpg",
+    "slug": "pt-1977-600-landscape-850"
+  },
+  {
+    "id": "pt-1977-600-landscape-700",
+    "title": "Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "gouache and watercolor on paper",
+    "dimensions": "28 × 21 in.",
+    "image-main": "pt-1977-600-landscape-700.jpg",
+    "image-thumb": "pt-1977-600-landscape-700-thumb.jpg",
+    "slug": "pt-1977-600-landscape-700"
+  },
+  {
+    "id": "pt-1977-600-landscape-210",
+    "title": "River Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "gouache on paper",
+    "dimensions": "12 × 16 in.",
+    "image-main": "pt-1977-600-landscape-210.jpg",
+    "image-thumb": "pt-1977-600-landscape-210-thumb.jpg",
+    "slug": "pt-1977-600-landscape-210",
+    "subtitle": "West Willington"
+  },
+  {
+    "id": "pt-1977-600-landscape-200",
+    "title": "Landscape",
+    "year": "1977",
+    "category": "PT",
+    "materials": "watercolor on paper",
+    "dimensions": "4.5 × 6 in.",
+    "image-main": "pt-1977-600-landscape-200.jpg",
+    "image-thumb": "pt-1977-600-landscape-200-thumb.jpg",
+    "slug": "pt-1977-600-landscape-200",
+    "subtitle": "West Willington"
+  },
+  {
+    "id": "pt-1977-500-landscape-500",
+    "title": "Landscape",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "watercolor and pen on paper",
+    "dimensions": "18 × 24 in.",
+    "image-main": "pt-1977-500-landscape-500.jpg",
+    "image-thumb": "pt-1977-500-landscape-500-thumb.jpg",
+    "slug": "pt-1977-500-landscape-500"
+  },
+  {
+    "id": "pt-1977-500-earth-water",
+    "title": "Earth Water",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "watercolor on rice paper",
+    "dimensions": "22 × 15 in.",
+    "image-main": "pt-1977-500-earth-water.jpg",
+    "image-thumb": "pt-1977-500-earth-water-thumb.jpg",
+    "slug": "pt-1977-500-earth-water"
+  },
+  {
+    "id": "pt-1977-500-earth-fire",
+    "title": "Earth Fire",
+    "year": "1977",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "acrylic on paper",
+    "dimensions": "33 × 30 in.",
+    "image-main": "pt-1977-500-earth-fire.jpg",
+    "image-thumb": "pt-1977-500-earth-fire-thumb.jpg",
+    "slug": "pt-1977-500-earth-fire"
+  },
+  {
+    "id": "pt-1976-800-self-portrait-oil",
+    "title": "Self-Portrait",
+    "year": "1976",
+    "category": "PT",
+    "tags": "self-portraits",
+    "materials": "oil on canvas",
+    "dimensions": "30 × 24 in.",
+    "image-main": "pt-1976-800-self-portrait-oil.jpg",
+    "image-thumb": "pt-1976-800-self-portrait-oil-thumb.jpg",
+    "slug": "pt-1976-800-self-portrait-oil"
+  },
+  {
+    "id": "pt-1976-700-self-portrait",
+    "title": "Self-Portrait",
+    "year": "1976",
+    "category": "PT",
+    "tags": "self-portraits",
+    "materials": "ink on paper",
+    "dimensions": "24 × 18 in.",
+    "image-main": "pt-1976-700-self-portrait.jpg",
+    "image-thumb": "pt-1976-700-self-portrait-thumb.jpg",
+    "slug": "pt-1976-700-self-portrait"
+  },
+  {
+    "id": "pt-1976-600-portrait-red",
+    "title": "Portrait",
+    "year": "1976",
+    "category": "PT",
+    "materials": "gouache on paper",
+    "dimensions": "12 × 9 in.",
+    "image-main": "pt-1976-600-portrait-red.jpg",
+    "image-thumb": "pt-1976-600-portrait-red-thumb.jpg",
+    "slug": "pt-1976-600-portrait-red"
+  },
+  {
+    "id": "pt-1976-500-still-life-kettle",
+    "title": "Tea Kettle",
+    "year": "1976",
+    "category": "PT",
+    "materials": "watercolor on paper",
+    "dimensions": "14 × 10 in.",
+    "image-main": "pt-1976-500-still-life-kettle.jpg",
+    "image-thumb": "pt-1976-500-still-life-kettle-thumb.jpg",
+    "slug": "pt-1976-500-still-life-kettle"
+  },
+  {
+    "id": "pt-1976-400-landscape-forest-floor",
+    "title": "Landscape",
+    "year": "1976",
+    "category": "PT",
+    "tags": "landscapes",
+    "materials": "ink wash on paper",
+    "dimensions": "16 × 12 in.",
+    "image-main": "pt-1976-400-landscape-forest-floor.jpg",
+    "image-thumb": "pt-1976-400-landscape-forest-floor-thumb.jpg",
+    "slug": "pt-1976-400-landscape-forest-floor"
+  },
+  {
+    "id": "pt-1976-300-interior-window",
+    "title": "Interior Window",
+    "year": "1976",
+    "category": "PT",
+    "materials": "watercolor and acrylic on paper",
+    "dimensions": "20 × 26 in.",
+    "image-main": "pt-1976-300-interior-window.jpg",
+    "image-thumb": "pt-1976-300-interior-window-thumb.jpg",
+    "slug": "pt-1976-300-interior-window"
   }
 ]
