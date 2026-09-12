@@ -280,6 +280,28 @@ main {
   line-height: 1.2;
 }
 
+.about-page {
+  max-width: 52rem;
+  font-size: 0.9rem;
+}
+
+.about-page h2 {
+  margin: 2.25rem 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.about-page p {
+  margin: 0 0 0.55rem;
+  line-height: 1.5;
+}
+
+.about-page section {
+  margin: 0;
+}
+
+
 /* Extra views */
 
 .artwork-extra-views {
