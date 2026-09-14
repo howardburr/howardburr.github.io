@@ -111,9 +111,8 @@ const galleryItems = artwork
     return sequenceDifference;
   }
 
-  // 3. Within the same year and chronology number,
-  // preserve the order from the spreadsheet.
-  return 0;
+ // 3. Within the same sequence, higher numbered work first.
+ return bParts.itemNumber - aParts.itemNumber;
 
 });
 
