@@ -247,7 +247,11 @@ main {
 
 .artwork-detail {
   max-width: 950px;
-  margin: 0 auto;
+  margin: -2rem auto 0;
+}
+
+.back-to-gallery {
+  margin: 0.25rem 0 0.75rem;
 }
 
 .artwork-main-image {
