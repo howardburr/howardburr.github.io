@@ -409,6 +409,31 @@ if (extraViews.length > 0) {
   artworkDetail.appendChild(extraSection);
 }
 
+// Add a Next link for Paintings only.
+if (item.category === "PT") {
+const backLink = document.getElementById("back-to-gallery-link");
+if (backLink) {
+  backLink.href = "paintings.html";
+}
+
+const paintings = artwork
+  .filter((work) => work.category === "PT" && work.status !== "hidden");
+
+  const currentIndex = paintings.findIndex((work) => work.id === item.id);
+
+  if (currentIndex !== -1 && currentIndex < paintings.length - 1) {
+    const nextItem = paintings[currentIndex + 1];
+
+    const nextLink = document.createElement("a");
+    nextLink.href = `artwork.html?id=${encodeURIComponent(nextItem.id)}`;
+    nextLink.textContent = "Next →";
+    nextLink.className = "artwork-next";
+
+    artworkDetail.appendChild(nextLink);
+  }
+}
+
+
 document.title = `${item.title} | Howard Burr`;
 
   } catch (error) {

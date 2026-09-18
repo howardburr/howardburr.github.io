@@ -432,3 +432,11 @@ body.lightbox-open {
     right: 0.25rem;
   }
 }
+
+.artwork-next {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
