@@ -28,9 +28,12 @@
 
 <main>
   <h1 class="page-heading" id="subject-title">Selected Subject</h1>
-  <p class="page-intro" id="subject-message">
-    A selection of related works will appear here.
-  </p>
+
+ <section
+  id="artwork-grid"
+  class="artwork-grid"
+  aria-label="Selected subject gallery"
+ ></section> 
   <p><a href="selected-subjects.html">← Return to Selected Subjects</a></p>
 </main>
 
@@ -122,8 +125,8 @@
   };
 
   document.getElementById("subject-title").textContent = subject.title;
-  document.getElementById("subject-message").textContent = subject.message;
   document.title = `${subject.title} | Howard Burr`;
 </script>
+<script src="js/site.js"></script>
 </body>
 </html>

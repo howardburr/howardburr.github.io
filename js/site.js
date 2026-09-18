@@ -34,16 +34,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     const artwork = await response.json();
 
    
-    const currentPage = window.location.pathname.split("/").pop();
-const currentCategory = categoryByPage[currentPage];
+   const currentPage = window.location.pathname.split("/").pop();
+   const currentCategory = categoryByPage[currentPage];
 
-const galleryItems = artwork
-  .filter((item) => {
+   const params = new URLSearchParams(window.location.search);
+   const selectedSubject =
+    currentPage === "selected-subject.html"
+    ? params.get("subject")
+    : null;
+
+   const galleryItems = artwork
+    .filter((item) => {
+      const isVisible = item.status !== "hidden";
+
+      if (selectedSubject) {
+       const tags = String(item.tags || "")
+        .split(",")
+        .map((tag) => tag.trim());
+
+       return tags.includes(selectedSubject) && isVisible;
+    }
+
     const isCorrectCategory = item.category === currentCategory;
-    const isVisible = item.status !== "hidden";
-
     return isCorrectCategory && isVisible;
-  })
+   })
  .sort((a, b) => {
   // 1. Newest year first.
   const yearDifference = Number(b.year) - Number(a.year);

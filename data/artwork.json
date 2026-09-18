@@ -470,7 +470,7 @@
   },
   {
     "id": "sc-1980-900-a-bride-for-becoming-01",
-    "title": "A Bride for Becoming",
+    "title": "A Bride for Becoming I",
     "year": "1980",
     "category": "SC",
     "tags": "a-bride-for-becoming",
@@ -580,7 +580,7 @@
     "title": "Snowmen I, H R I V",
     "year": "1984",
     "category": "SC",
-    "tags": "snow-man-series",
+    "tags": "snowmen-series",
     "materials": "steel, and tin cans",
     "dimensions": "92 × 56 × 39 in.",
     "image-main": "sc-1984-snowmen-01-hriv-main.jpg",
@@ -598,7 +598,7 @@
     "title": "Snowmen II, HAM RAM",
     "year": "1984",
     "category": "SC",
-    "tags": "snow-man-series",
+    "tags": "snowmen-series",
     "materials": "steel, tin cans, glow-in-the-dark paint",
     "dimensions": "106 × 52 × 39 in.",
     "image-main": "sc-1984-snowmen-02-ham-ram-main.jpg",
@@ -615,7 +615,7 @@
     "title": "Snowmen III, AH OM",
     "year": "1984",
     "category": "SC",
-    "tags": "snow-man-series",
+    "tags": "snowmen-series",
     "materials": "steel, tin cans, and glow-in-the-dark paint",
     "dimensions": "96 × 56 × 39 in.",
     "image-main": "sc-1984-snowmen-03-ah-om-main.jpg",
@@ -2354,8 +2354,8 @@
     "tags": "maithuna",
     "materials": "block print on paper",
     "dimensions": "20 × 31 in.",
-    "image-main": "pr-1976-800-maithuna-becoming-01.jpg",
-    "image-thumb": "pr-1976-800-maithuna-becoming-01-thumb.jpg",
+    "image-main": "pr-1976-850-maithuna-becoming-01.jpg",
+    "image-thumb": "pr-1976-850-maithuna-becoming-01-thumb.jpg",
     "slug": "pr-1976-800-maithuna-becoming-01"
   },
   {
@@ -2366,8 +2366,8 @@
     "tags": "maithuna",
     "materials": "block print on paper",
     "dimensions": "20 × 31 in.",
-    "image-main": "pr-1976-800-maithuna-becoming-02.jpg",
-    "image-thumb": "pr-1976-800-maithuna-becoming-02-thumb.jpg",
+    "image-main": "pr-1976-850-maithuna-becoming-02.jpg",
+    "image-thumb": "pr-1976-850-maithuna-becoming-02-thumb.jpg",
     "slug": "pr-1976-800-maithuna-becoming-02"
   },
   {
@@ -2378,8 +2378,8 @@
     "tags": "maithuna",
     "materials": "block print on paper",
     "dimensions": "20 × 31 in.",
-    "image-main": "pr-1976-800-maithuna-becoming-03.jpg",
-    "image-thumb": "pr-1976-800-maithuna-becoming-03-thumb.jpg",
+    "image-main": "pr-1976-850-maithuna-becoming-03.jpg",
+    "image-thumb": "pr-1976-850-maithuna-becoming-03-thumb.jpg",
     "slug": "pr-1976-800-maithuna-becoming-03"
   },
   {
@@ -2390,8 +2390,8 @@
     "tags": "maithuna",
     "materials": "block print on rice paper",
     "dimensions": "20 × 31 in.",
-    "image-main": "pr-1976-800-maithuna-becoming-04.jpg",
-    "image-thumb": "pr-1976-800-maithuna-becoming-04-thumb.jpg",
+    "image-main": "pr-1976-850-maithuna-becoming-04.jpg",
+    "image-thumb": "pr-1976-850-maithuna-becoming-04-thumb.jpg",
     "slug": "pr-1976-800-maithuna-becoming-04"
   },
   {
