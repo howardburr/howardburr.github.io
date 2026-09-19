@@ -421,6 +421,17 @@ const paintings = artwork
 
   const currentIndex = paintings.findIndex((work) => work.id === item.id);
 
+if (currentIndex > 0) {
+  const previousItem = paintings[currentIndex - 1];
+
+  const previousLink = document.createElement("a");
+  previousLink.href = `artwork.html?id=${encodeURIComponent(previousItem.id)}`;
+  previousLink.textContent = "← Back";
+  previousLink.className = "artwork-previous";
+
+  artworkDetail.appendChild(previousLink);
+}
+
   if (currentIndex !== -1 && currentIndex < paintings.length - 1) {
     const nextItem = paintings[currentIndex + 1];
 

@@ -252,7 +252,7 @@ main {
 }
 
 .back-to-gallery {
-  margin: 0.25rem 0 0.75rem;
+  margin: 0.75rem 0 0.75rem;
 }
 
 .artwork-main-image {
@@ -437,6 +437,14 @@ body.lightbox-open {
   display: block;
   text-align: right;
   margin-top: 1rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.artwork-previous {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: -2.5rem;
   font-size: 0.9rem;
   text-decoration: none;
 }
