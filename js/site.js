@@ -409,34 +409,53 @@ if (extraViews.length > 0) {
   artworkDetail.appendChild(extraSection);
 }
 
-// Add a Next link for Paintings only.
-if (item.category === "PT") {
-const backLink = document.getElementById("back-to-gallery-link");
-if (backLink) {
-  backLink.href = "paintings.html";
-}
+// Add category-aware Back to gallery, Previous, and Next navigation.
+const categoryPages = {
+  SC: "sculpture.html",
+  PT: "paintings.html",
+  DR: "drawings.html",
+  PR: "prints.html",
+  GG: "graal-glass.html"
+};
 
-const paintings = artwork
-  .filter((work) => work.category === "PT" && work.status !== "hidden");
+const galleryPage = categoryPages[item.category];
 
-  const currentIndex = paintings.findIndex((work) => work.id === item.id);
+if (galleryPage) {
+  const backLink = document.getElementById("back-to-gallery-link");
 
-if (currentIndex > 0) {
-  const previousItem = paintings[currentIndex - 1];
+  if (backLink) {
+    backLink.href = galleryPage;
+  }
 
-  const previousLink = document.createElement("a");
-  previousLink.href = `artwork.html?id=${encodeURIComponent(previousItem.id)}`;
-  previousLink.textContent = "← Back";
-  previousLink.className = "artwork-previous";
+const categoryArtwork = artwork.filter(
+  (work) => work.category === item.category && work.status !== "hidden"
+);
 
-  artworkDetail.appendChild(previousLink);
-}
+  const currentIndex = categoryArtwork.findIndex(
+    (work) => work.id === item.id
+  );
 
-  if (currentIndex !== -1 && currentIndex < paintings.length - 1) {
-    const nextItem = paintings[currentIndex + 1];
+  if (currentIndex > 0) {
+    const previousItem = categoryArtwork[currentIndex - 1];
+
+    const previousLink = document.createElement("a");
+    previousLink.href =
+      `artwork.html?id=${encodeURIComponent(previousItem.id)}`;
+    previousLink.textContent = "← Back";
+    previousLink.className = "artwork-previous";
+
+    artworkDetail.appendChild(previousLink);
+  }
+
+  if (
+    currentIndex !== -1 &&
+    currentIndex < categoryArtwork.length - 1
+  ) {
+    const nextItem = categoryArtwork[currentIndex + 1];
 
     const nextLink = document.createElement("a");
-    nextLink.href = `artwork.html?id=${encodeURIComponent(nextItem.id)}`;
+    nextLink.href =
+      `artwork.html?id=${encodeURIComponent(nextItem.id)}`;
     nextLink.textContent = "Next →";
     nextLink.className = "artwork-next";
 
