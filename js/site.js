@@ -431,6 +431,10 @@ const categoryArtwork = artwork.filter(
   (work) => work.category === item.category && work.status !== "hidden"
 );
 
+if (item.category === "PR" || item.category === "SC") {
+  categoryArtwork.reverse();
+}
+
   const currentIndex = categoryArtwork.findIndex(
     (work) => work.id === item.id
   );
