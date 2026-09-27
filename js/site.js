@@ -469,6 +469,43 @@ if (item.category === "PR" || item.category === "SC") {
 
 
 document.title = `${item.title} | Howard Burr`;
+const metaDescription = document.querySelector('meta[name="description"]');
+
+if (metaDescription) {
+  const categoryNames = {
+    SC: "sculpture",
+    PT: "painting",
+    DR: "drawing",
+    PR: "print",
+    GG: "graal glass work",
+    GGD: "graal glass drawing",
+    SK: "sketch"
+  };
+
+  const categoryName = categoryNames[item.category] || "artwork";
+
+  let description = `${item.title}`;
+
+  if (item.year) {
+    description += `, ${item.year}`;
+  }
+
+if (item.category === "GG") {
+  description += `, a graal glass vessel by Howard Burr and Burr Graal Glass, Inc.`;
+} else {
+  description += `, a ${categoryName} by American artist Howard Burr.`;
+}
+
+  if (item.materials) {
+    description += ` Materials: ${item.materials}.`;
+  }
+
+  if (item.dimensions) {
+    description += ` Dimensions: ${item.dimensions}.`;
+  }
+
+  metaDescription.setAttribute("content", description);
+}
 
   } catch (error) {
     console.error(error);
