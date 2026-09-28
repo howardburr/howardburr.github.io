@@ -57,83 +57,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const isCorrectCategory = item.category === currentCategory;
     return isCorrectCategory && isVisible;
-   })
- .sort((a, b) => {
-  // 1. Newest year first.
-  const yearDifference = Number(b.year) - Number(a.year);
+   });
 
-  if (yearDifference !== 0) {
-    return yearDifference;
-  }
-
-  const getSortParts = (item) => {
-    const id = item.id;
-
-    // Normal IDs:
-    // sc-1980-900-a-bride-for-becoming-02
-    const normalMatch = id.match(
-      /^[a-z]+-\d{4}-(\d{3})-.*?-(\d{2,3})(?:-|$)/i
-    );
-
-    if (normalMatch) {
-      return {
-        sequence: Number(normalMatch[1]),
-        itemNumber: Number(normalMatch[2]),
-      };
-    }
-
-    // Normal ID with no later numbered series item.
-    const sequenceMatch = id.match(
-      /^[a-z]+-\d{4}-(\d{3})-/i
-    );
-
-    if (sequenceMatch) {
-      return {
-        sequence: Number(sequenceMatch[1]),
-        itemNumber: 0,
-      };
-    }
-
-    // Snowmen are the exception because they omit the 3-digit
-    // chronology number:
-    // sc-1984-snowmen-03-ah-om
-    const snowmanMatch = id.match(
-      /^[a-z]+-\d{4}-snowmen-(\d{2})-/i
-    );
-
-    if (snowmanMatch) {
-      return {
-        sequence: 0,
-        itemNumber: Number(snowmanMatch[1]),
-      };
-    }
-
-    return {
-      sequence: 0,
-      itemNumber: 0,
-    };
-  };
-
-  const aParts = getSortParts(a);
-  const bParts = getSortParts(b);
-
-  // 2. Higher 3-digit chronology number first.
-  const sequenceDifference =
-    bParts.sequence - aParts.sequence;
-
-  if (sequenceDifference !== 0) {
-    return sequenceDifference;
-  }
-
- // 3. Within the same sequence, higher numbered work first.
- return bParts.itemNumber - aParts.itemNumber;
-
-});
 
    galleryItems.forEach((item) => {
         const card = document.createElement("a");
 card.className = "artwork-card";
-card.href = `artwork.html?id=${encodeURIComponent(item.id)}`;
+card.href = selectedSubject
+  ? `artwork.html?id=${encodeURIComponent(item.id)}&subject=${encodeURIComponent(selectedSubject)}`
+  : `artwork.html?id=${encodeURIComponent(item.id)}`;
 
       const image = document.createElement("img");
      const imageFolder = folderByCategory[item.category];
@@ -181,6 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const params = new URLSearchParams(window.location.search);
     const artworkId = params.get("id");
+    const selectedSubject = params.get("subject");
 
     if (!artworkId) {
       throw new Error("No artwork ID was provided.");
@@ -418,7 +351,9 @@ const categoryPages = {
   GG: "graal-glass.html"
 };
 
-const galleryPage = categoryPages[item.category];
+const galleryPage = selectedSubject
+  ? `selected-subject.html?subject=${encodeURIComponent(selectedSubject)}`
+  : categoryPages[item.category];
 
 if (galleryPage) {
   const backLink = document.getElementById("back-to-gallery-link");
@@ -427,24 +362,33 @@ if (galleryPage) {
     backLink.href = galleryPage;
   }
 
-const categoryArtwork = artwork.filter(
-  (work) => work.category === item.category && work.status !== "hidden"
-);
+  let navigationArtwork;
 
-if (item.category === "PR" || item.category === "SC") {
-  categoryArtwork.reverse();
-}
+  if (selectedSubject) {
+    navigationArtwork = artwork.filter((work) => {
+      const tags = String(work.tags || "")
+        .split(",")
+        .map((tag) => tag.trim());
 
-  const currentIndex = categoryArtwork.findIndex(
+      return tags.includes(selectedSubject) && work.status !== "hidden";
+    });
+  } else {
+    navigationArtwork = artwork.filter(
+      (work) => work.category === item.category && work.status !== "hidden"
+    );
+  }
+
+  const currentIndex = navigationArtwork.findIndex(
     (work) => work.id === item.id
   );
 
   if (currentIndex > 0) {
-    const previousItem = categoryArtwork[currentIndex - 1];
+    const previousItem = navigationArtwork[currentIndex - 1];
 
     const previousLink = document.createElement("a");
-    previousLink.href =
-      `artwork.html?id=${encodeURIComponent(previousItem.id)}`;
+    previousLink.href = selectedSubject
+      ? `artwork.html?id=${encodeURIComponent(previousItem.id)}&subject=${encodeURIComponent(selectedSubject)}`
+      : `artwork.html?id=${encodeURIComponent(previousItem.id)}`;
     previousLink.textContent = "← Back";
     previousLink.className = "artwork-previous";
 
@@ -453,13 +397,14 @@ if (item.category === "PR" || item.category === "SC") {
 
   if (
     currentIndex !== -1 &&
-    currentIndex < categoryArtwork.length - 1
+    currentIndex < navigationArtwork.length - 1
   ) {
-    const nextItem = categoryArtwork[currentIndex + 1];
+    const nextItem = navigationArtwork[currentIndex + 1];
 
     const nextLink = document.createElement("a");
-    nextLink.href =
-      `artwork.html?id=${encodeURIComponent(nextItem.id)}`;
+    nextLink.href = selectedSubject
+      ? `artwork.html?id=${encodeURIComponent(nextItem.id)}&subject=${encodeURIComponent(selectedSubject)}`
+      : `artwork.html?id=${encodeURIComponent(nextItem.id)}`;
     nextLink.textContent = "Next →";
     nextLink.className = "artwork-next";
 
