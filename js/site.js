@@ -348,7 +348,8 @@ const categoryPages = {
   PT: "paintings.html",
   DR: "drawings.html",
   PR: "prints.html",
-  GG: "graal-glass.html"
+  GG: "graal-glass.html",
+  GGD: "graal-glass-drawings.html"
 };
 
 const galleryPage = selectedSubject
